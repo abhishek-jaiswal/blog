@@ -8,5 +8,5 @@ permalink: /talks/
   <div class="title">
   <h1>Talks</h1>
   </div>
-<img src="../blog/images/coming_soon.gif" alt="soon to be updated">
+<img src="../../blog/images/coming_soon.gif" alt="soon to be updated">
 </section>
