@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-<div class="hero" style="background-image: url(/images/window.jpeg);"></div>
+<div class="hero" style="background-image: url(../blog/images/window.jpeg);"></div>
 <section class="container content">
   <div class="title">
   <h1>About</h1>
