@@ -1,0 +1,16 @@
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="author" content="Abhishek Jaiswal">
+  <meta name="”twitter:site”" content="@abhishek_jaisw">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link rel="stylesheet" type="text/css" media="screen, projection" href="{{ "/css/base.css" | prepend: site.baseurl }}">
+
+  <link media="only screen and (max-device-width: 480px)" href="{{ "/css/mobile.css" | prepend: site.baseurl }}" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/css/font-awesome.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/pygments.css" | prepend: site.baseurl }}">
+
+  <link rel="apple-touch-icon" href="{{ "/images/apple-touch-icon.png" | prepend: site.baseurl }}">
+</head>
