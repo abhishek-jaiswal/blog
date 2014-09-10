@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abhishek Jaiswal</title>
-    <description>Personal-blog abhishek jaiswal software engineer kolkata acharya institute management sciences  https://plus.google.com/+abhishekjaiswalabhishek/posts http://in.linkedin.com/pub/abhishek-jaiswal/3b/849/575 .
+    <description>Personal-blog abhishek jaiswal software engineer kolkata acharya institute management sciences https://plus.google.com/+abhishekjaiswalabhishek/posts http://in.linkedin.com/pub/abhishek-jaiswal/3b/849/575 .
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 10 Sep 2014 17:06:47 +0530</pubDate>
-    <lastBuildDate>Wed, 10 Sep 2014 17:06:47 +0530</lastBuildDate>
+    <link>http://abhishek-jaiswal.github.io//blog//</link>
+    <atom:link href="http://abhishek-jaiswal.github.io//blog//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 10 Sep 2014 17:11:51 +0530</pubDate>
+    <lastBuildDate>Wed, 10 Sep 2014 17:11:51 +0530</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -40,8 +40,8 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 &lt;/section&gt;
 </description>
         <pubDate>Wed, 10 Sep 2014 16:44:19 +0530</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2014/09/10/jekyll-blog.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2014/09/10/jekyll-blog.html</guid>
+        <link>http://abhishek-jaiswal.github.io//blog//jekyll/update/2014/09/10/jekyll-blog.html</link>
+        <guid isPermaLink="true">http://abhishek-jaiswal.github.io//blog//jekyll/update/2014/09/10/jekyll-blog.html</guid>
         
         
         <category>jekyll</category>

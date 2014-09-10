@@ -6,8 +6,8 @@ description: > # this means to ignore newlines until "baseurl:"
   https://plus.google.com/+abhishekjaiswalabhishek/posts
   http://in.linkedin.com/pub/abhishek-jaiswal/3b/849/575
   .
-baseurl: "http://abhishek-jaiswal.github.io/blog/" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/blog/" # the subpath of your site, e.g. /blog/
+url: "http://abhishek-jaiswal.github.io" # the base hostname & protocol for your site
 twitter_username: abhishek_jaisw
 github_username:  abhishek-jaiswal
 
