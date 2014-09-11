@@ -12,4 +12,8 @@ twitter_username: abhishek_jaisw
 github_username: abhishek-jaiswal
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+  input: GFM
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
