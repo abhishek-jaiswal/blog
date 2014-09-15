@@ -1,19 +1,74 @@
-# Site settings github
-title: Abhishek Jaiswal
-email: gateway2abhi@yahoo.co.in
-description: > # this means to ignore newlines until "baseurl:"
- Personal-blog abhishek jaiswal software engineer kolkata acharya institute management sciences
- https://plus.google.com/+abhishekjaiswalabhishek/posts
- http://in.linkedin.com/pub/abhishek-jaiswal/3b/849/575
- .
-baseurl: "/blog/" # the subpath of your site, e.g. /blog/
-url: "http://abhishek-jaiswal.github.io" # the base hostname & protocol for your site
-twitter_username: abhishek_jaisw
-github_username: abhishek-jaiswal
-
 # Build settings
 markdown: redcarpet
 redcarpet:
   input: GFM
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+highlighter: pygments
+
+# Site settings
+title: "Abhishek Jaiswal"
+description: > # this means to ignore newlines until "email:"
+    Personal-blog abhishek jaiswal software engineer kolkata acharya institute management sciences
+    https://plus.google.com/+abhishekjaiswalabhishek/posts
+    http://in.linkedin.com/pub/abhishek-jaiswal/3b/849/575
+
+email: ia.malhotra@gmail.com
+#blog logo
+logo: "/assets/images/df_logo.jpg"
+# blog cover
+cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+
+name: ' Blog'
+author: 'Abhishek Jaiswal'
+author_image: "/assets/images/author.jpg"
+
+paginate:	5
+
+url: "http://localhost:4000" # the base hostname & protocol for your site
+baseurl: ""
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/abhishek_jaisw
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+  - icon:	facebook
+    url:	https://facebook.com/gateway2abhi
+    desc: Connect with me facebook
+    share_url: //www.facebook.com/sharer.php
+    share_title: ?t=
+    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/abhishek-jaiswal
+    desc:	About me on github
+    share_url:
+    share_title:
+    share_link:
+
+  - icon:	linkedin
+    url:	http://in.linkedin.com/pub/abhishek-jaiswal/3b/849/575
+    desc:	Connect with me on linkedin
+    share_url:
+    share_title:
+    share_link:
+
+  - icon:	github
+    url:	http://abhishek-jaiswal.io
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+  - icon:	google-plus
+    url:	https://google.com/???
+    desc:	Add me on google+
+    share_url:
+    share_title:
+    share_link:
