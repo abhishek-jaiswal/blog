@@ -4,7 +4,6 @@ title:  "Welcome to Jekyll!"
 date:   2014-09-10 11:14:19
 categories: jekyll update
 ---
-<div class="hero" style="background-image: url(../blog/images/window.jpeg);"></div>
 <section class="container content">
    <div class="title">
         <h1>Welcome to Jekyll!</h1>
