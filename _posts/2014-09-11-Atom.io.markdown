@@ -4,6 +4,7 @@ title:  "Atom.io a new and fast text editor from github"
 date:   2014-09-11 09:09:09
 categories: texteditor
 tags: featured
+image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
 ---
 <div class="hero" style="background-image: url(../blog/images/window.jpeg);"></div>
 <section class="container content">
