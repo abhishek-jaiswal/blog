@@ -1,0 +1,11 @@
+#floatDiv {
+     position:absolute;
+     left:100%;
+     margin-top:200px;
+     margin-left:-200px;
+     background-color: #000000;
+ }
+
+ .color-white {
+   color:#ffffff
+ }

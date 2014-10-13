@@ -12,7 +12,7 @@ image: /blog/assets/article_images/desktop.JPG
         <div class="when">2014-09-11 09:09:09</div>
     </div>
 
-
+<div id='content'></div>
   * [Argument Unpacking](#argument-unpacking)
   * [Braces](#braces)
   * [Chaining Comparison Operators](#chaining-comparison-operators:)
@@ -29,7 +29,7 @@ image: /blog/assets/article_images/desktop.JPG
   * [import this](#import-this)
   * [In Place Value Swapping](#in-place-value-swapping)
   * [List stepping](#list-stepping)
-  * [__missing__ items](#__missing__-items)
+  * [__missing__ items](#missing-items)
   * [Multi-line Regex](#)
   * [Named string formatting](#named-string-formatting)
   * [Nested list/generator comprehensions](#nested-list/generator-comprehensions)
@@ -42,6 +42,10 @@ image: /blog/assets/article_images/desktop.JPG
   * [Ternary Expression](#ternary-expression)
   * [try/except/else](#try/except/else)
   * [with statement] (#with-statement)
+
+<div id="floatDiv">
+<a href="#content"><span class="color-white">Go to To</span></a>
+</div>
 
 ### Argument Unpacking
 You can unpack a list or a dictionary as function arguments using `*` and `**`. <br/>
@@ -590,6 +594,7 @@ if that occurs normally or whether an exception was thrown. It is basically a
 way of abstracting away common exception-handling code.<br/>
 Other common use cases for this include locking with threads and database
 transactions.
+
 ### __missing__ items
 From 2.5 onwards dicts have a special method __missing__ that is invoked for missing items:
 {% highlight python %}
@@ -614,3 +619,20 @@ There is also a dict subclass in collections called defaultdict that does pretty
 {'foo': [1, 2]}
 {% endhighlight %}
 I recommend converting such dicts to regular dicts before passing them to functions that don't expect such subclasses. A lot of code uses d[a_key] and catches KeyErrors to check if an item exists which would add a new item to the dict.
+
+
+<script language="javascript">
+
+$(document).ready(function(){
+  //on window scroll fire it will call a function.
+  $(window).scroll(function () {
+    //after window scroll fire it will add define pixel added to that element.
+    set = $(document).scrollTop()+"px";
+    //this is the jQuery animate function to fixed the div position after scrolling.
+    $('#floatDiv').animate({top:set},{duration:1000,queue:false});
+
+  });
+
+});
+
+</script>
