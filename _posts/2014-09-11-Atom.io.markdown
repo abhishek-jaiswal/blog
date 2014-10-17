@@ -3,7 +3,7 @@ layout: post
 title:  "Atom.io a new and fast text editor from github"
 date:   2014-09-11 09:09:09
 categories: texteditor
-tags: featured
+tags:
 image: /blog/assets/article_images/desktop.JPG
 ---
 <section class="container content">
